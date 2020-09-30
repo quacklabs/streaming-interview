@@ -24,8 +24,8 @@ class TabMenuItem: UIView {
                 self.displayTitle.textColor = Colors.yellow
             } else {
                 self.iconView.image = self.icon
-                self.iconView.tintColor = Colors.white
-                self.displayTitle.textColor = Colors.white
+                self.iconView.tintColor = .white
+                self.displayTitle.textColor = .white
                 
             }
             self.setNeedsLayout()
@@ -39,7 +39,7 @@ class TabMenuItem: UIView {
         self.iconView.willSetConstraints()
         
         self.displayTitle.font = UIFont(name: "Roboto", size: 13)
-        self.displayTitle.textColor = Colors.white
+        self.displayTitle.textColor = .white
         self.displayTitle.willSetConstraints()
     }
     
@@ -55,7 +55,7 @@ class TabMenuItem: UIView {
         self.isSelected = asActive
         
         self.iconView.image = self.icon?.withRenderingMode(.alwaysTemplate)
-        self.iconView.tintColor = self.isSelected ? Colors.yellow : Colors.white
+        self.iconView.tintColor = self.isSelected ? Colors.yellow : .white
         self.displayTitle.text = menuItem.title
         self.displayTitle.sizeToFit()
         

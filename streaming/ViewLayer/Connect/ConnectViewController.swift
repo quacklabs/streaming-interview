@@ -12,7 +12,7 @@ class ConnectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = Colors.white
+        self.view.backgroundColor = .white
         // Do any additional setup after loading the view.
     }
     

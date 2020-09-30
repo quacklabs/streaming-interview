@@ -25,6 +25,16 @@
 		255DDF172524B6BD00EF9DB7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF162524B6BD00EF9DB7 /* UIView+Extensions.swift */; };
 		255DDF192524BCEB00EF9DB7 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF182524BCEB00EF9DB7 /* UIImage+Extensions.swift */; };
 		255DDF1C2524BFCC00EF9DB7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 255DDF1B2524BFCC00EF9DB7 /* Roboto-Regular.ttf */; };
+		255DDF1F2524C66600EF9DB7 /* DismissableBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF1E2524C66600EF9DB7 /* DismissableBanner.swift */; };
+		255DDF212524CBB600EF9DB7 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF202524CBB600EF9DB7 /* Text.swift */; };
+		255DDF232524CD9000EF9DB7 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF222524CD9000EF9DB7 /* UIFont+Extensions.swift */; };
+		255DDF252524CFE300EF9DB7 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF242524CFE300EF9DB7 /* NSMutableAttributedString+Extensions.swift */; };
+		255DDF272524D09000EF9DB7 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 255DDF262524D09000EF9DB7 /* Roboto-Bold.ttf */; };
+		255DDF292524DC5B00EF9DB7 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF282524DC5B00EF9DB7 /* Slider.swift */; };
+		255DDF2B2524DF3400EF9DB7 /* SliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF2A2524DF3400EF9DB7 /* SliderItem.swift */; };
+		255DDF2D2524E58600EF9DB7 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 255DDF2C2524E58600EF9DB7 /* mock.json */; };
+		255DDF2F2524EFFA00EF9DB7 /* Recent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF2E2524EFF900EF9DB7 /* Recent.swift */; };
+		255DDF31252509FD00EF9DB7 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255DDF30252509FD00EF9DB7 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +58,16 @@
 		255DDF162524B6BD00EF9DB7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		255DDF182524BCEB00EF9DB7 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		255DDF1B2524BFCC00EF9DB7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		255DDF1E2524C66600EF9DB7 /* DismissableBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableBanner.swift; sourceTree = "<group>"; };
+		255DDF202524CBB600EF9DB7 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		255DDF222524CD9000EF9DB7 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		255DDF242524CFE300EF9DB7 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		255DDF262524D09000EF9DB7 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		255DDF282524DC5B00EF9DB7 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		255DDF2A2524DF3400EF9DB7 /* SliderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderItem.swift; sourceTree = "<group>"; };
+		255DDF2C2524E58600EF9DB7 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		255DDF2E2524EFF900EF9DB7 /* Recent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent.swift; sourceTree = "<group>"; };
+		255DDF30252509FD00EF9DB7 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +108,7 @@
 				255DDEF525248B1D00EF9DB7 /* ViewLayer */,
 				255DDEF625248B2600EF9DB7 /* Utils */,
 				255DDEE82524860200EF9DB7 /* Assets.xcassets */,
+				255DDF2C2524E58600EF9DB7 /* mock.json */,
 			);
 			path = streaming;
 			sourceTree = "<group>";
@@ -109,6 +130,7 @@
 		255DDEF525248B1D00EF9DB7 /* ViewLayer */ = {
 			isa = PBXGroup;
 			children = (
+				255DDF1D2524C64900EF9DB7 /* CustomViews */,
 				255DDF072524973100EF9DB7 /* Search */,
 				255DDF062524972600EF9DB7 /* Connect */,
 				255DDF052524971A00EF9DB7 /* Discover */,
@@ -129,6 +151,9 @@
 				255DDF0C2524AE8C00EF9DB7 /* UIViewController+Extensions.swift */,
 				255DDF162524B6BD00EF9DB7 /* UIView+Extensions.swift */,
 				255DDF182524BCEB00EF9DB7 /* UIImage+Extensions.swift */,
+				255DDF202524CBB600EF9DB7 /* Text.swift */,
+				255DDF222524CD9000EF9DB7 /* UIFont+Extensions.swift */,
+				255DDF242524CFE300EF9DB7 /* NSMutableAttributedString+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -137,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				255DDEF825248C0500EF9DB7 /* Navigation.swift */,
+				255DDF30252509FD00EF9DB7 /* MiniPlayer.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -171,6 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				255DDF102524B0A200EF9DB7 /* DiscoverViewController.swift */,
+				255DDF282524DC5B00EF9DB7 /* Slider.swift */,
+				255DDF2A2524DF3400EF9DB7 /* SliderItem.swift */,
+				255DDF2E2524EFF900EF9DB7 /* Recent.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -194,9 +223,18 @@
 		255DDF1A2524BFB500EF9DB7 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				255DDF262524D09000EF9DB7 /* Roboto-Bold.ttf */,
 				255DDF1B2524BFCC00EF9DB7 /* Roboto-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		255DDF1D2524C64900EF9DB7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				255DDF1E2524C66600EF9DB7 /* DismissableBanner.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +297,9 @@
 			files = (
 				255DDF1C2524BFCC00EF9DB7 /* Roboto-Regular.ttf in Resources */,
 				255DDEEC2524860200EF9DB7 /* LaunchScreen.storyboard in Resources */,
+				255DDF272524D09000EF9DB7 /* Roboto-Bold.ttf in Resources */,
 				255DDEE92524860200EF9DB7 /* Assets.xcassets in Resources */,
+				255DDF2D2524E58600EF9DB7 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,20 +310,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255DDF2F2524EFFA00EF9DB7 /* Recent.swift in Sources */,
 				255DDF172524B6BD00EF9DB7 /* UIView+Extensions.swift in Sources */,
 				255DDF022524903000EF9DB7 /* Menu.swift in Sources */,
+				255DDF31252509FD00EF9DB7 /* MiniPlayer.swift in Sources */,
 				255DDF09252497A500EF9DB7 /* TabMenuItem.swift in Sources */,
+				255DDF252524CFE300EF9DB7 /* NSMutableAttributedString+Extensions.swift in Sources */,
 				255DDF0B2524AE5100EF9DB7 /* SearchViewController.swift in Sources */,
 				255DDF132524B0CB00EF9DB7 /* ConnectViewController.swift in Sources */,
 				255DDF0025248ECE00EF9DB7 /* String+Extensions.swift in Sources */,
 				255DDF0D2524AE8C00EF9DB7 /* UIViewController+Extensions.swift in Sources */,
+				255DDF2B2524DF3400EF9DB7 /* SliderItem.swift in Sources */,
 				255DDF0F2524B01B00EF9DB7 /* HomeViewController.swift in Sources */,
+				255DDF1F2524C66600EF9DB7 /* DismissableBanner.swift in Sources */,
 				255DDF152524B12000EF9DB7 /* MyMusicViewController.swift in Sources */,
 				255DDEE0252485FC00EF9DB7 /* AppDelegate.swift in Sources */,
+				255DDF212524CBB600EF9DB7 /* Text.swift in Sources */,
 				255DDEFE25248E5900EF9DB7 /* Colors.swift in Sources */,
+				255DDF292524DC5B00EF9DB7 /* Slider.swift in Sources */,
 				255DDF112524B0A200EF9DB7 /* DiscoverViewController.swift in Sources */,
 				255DDF192524BCEB00EF9DB7 /* UIImage+Extensions.swift in Sources */,
 				255DDEF925248C0500EF9DB7 /* Navigation.swift in Sources */,
+				255DDF232524CD9000EF9DB7 /* UIFont+Extensions.swift in Sources */,
 				255DDEFC25248C3D00EF9DB7 /* TabMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

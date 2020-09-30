@@ -18,4 +18,8 @@ extension String {
         let fromIndex = self.index(self.startIndex, offsetBy: from)
         return (length != nil && self.length > 0) ? String(self[fromIndex ..< self.index(fromIndex, offsetBy: length!)]) : String(self[fromIndex...])
     }
+    
+    var attributed: NSMutableAttributedString {
+        return NSMutableAttributedString(string: self)
+    }
 }

@@ -13,9 +13,8 @@ import UIKit
 // Define all app colors in one place so we can adhere to styleguides provided by the designer.
 struct Colors {
     static let pink = UIColor(hex: "#CC0033")
-    static let black = UIColor(hex: "#000000")
     static let yellow = UIColor(hex: "#CC9900")
-    static let white = UIColor(hex: "#FFFFFF")
+    static let grey = UIColor(hex: "#666666")
 }
 
 // add hex support for colors out of the box

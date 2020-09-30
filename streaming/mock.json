@@ -1,0 +1,38 @@
+[
+    {
+        "artiste" : "Yemi Alade",
+        "art" : "https://www.bellanaija.com/wp-content/uploads/2016/04/Yemi-Alade-Mama-Africa-Deluxe-Album-Cover-Art-600x600-1.jpg",
+        "title" : "Mama Africa",
+        "duration" : "4:00"
+    },
+    {
+        "artiste" : "Adekunle Gold",
+        "art" : "https://www.bellanaija.com/wp-content/uploads/2016/07/Adekunle-Gold-Album-Art-600x600-1.jpg",
+        "title" : "AG Baby",
+        "duration" : "3:00"
+    },
+    {
+        "artiste" : "D'Banj",
+        "art" : "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xMDk5ODk2NC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYyOTAzNTExMn0.-fy2v5EVduqH8TNVwr6ds93jb9QGGaj7IeCC2tQT2fU/img.jpg?width=980",
+        "title" : "King Don Come",
+        "duration" : "3:29"
+    },
+    {
+        "artiste" : "Burna Boy",
+        "art" : "https://img.discogs.com/pBzesBG6DnOQebsqXDXHjXapMuA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15766240-1597405674-6188.jpeg.jpg",
+        "title" : "twice as tall",
+        "duration" : "2:59"
+    },
+    {
+        "artiste" : "Timaya",
+        "art" : "https://tooxclusive.com/wp-content/uploads/2012/07/Timaya-Upgrade-Album-front-1.jpg",
+        "title" : "Upgrade",
+        "duration" : "4:00"
+    },
+    {
+        "artiste" : "MI",
+        "art" : "https://upload.wikimedia.org/wikipedia/en/c/c2/MI_2_album_cover_art.jpg",
+        "title" : "MI2",
+        "duration" : "4:00"
+    }
+]
